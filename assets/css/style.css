@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  color: white;
+
+}
+svg{
+  width: 30px;
+  height: 30px;
+
+}
+.collapse{
+  float: left;
+}
+img{
+  /*size: 10%;*/
+}
+.header{
+  size: 20rem;
+}
+.navegacion{
+  position:fixed;
+  z-index: 10;
+  height: 10%;
+  margin-left: 15% !important;
+}
+.navbar{
+
+}
+
+.carousel{
+
+}
+
+.card{
+  background-color: #17a3b8;
+  border-color: #828790;
+}
+.turquesa{
+  background-color: #17a3b8;
+}
