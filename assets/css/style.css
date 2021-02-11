@@ -11,9 +11,7 @@ svg{
 .collapse{
   float: left;
 }
-img{
-  /*size: 10%;*/
-}
+
 .header{
   size: 20rem;
 }
@@ -21,14 +19,7 @@ img{
   position:fixed;
   z-index: 10;
   height: 10%;
-  margin-left: 15% !important;
-}
-.navbar{
-
-}
-
-.carousel{
-
+  margin-left: 15vw !important;
 }
 
 .card{
@@ -37,4 +28,49 @@ img{
 }
 .turquesa{
   background-color: #17a3b8;
+}
+
+.titulo{
+  border-bottom: 1px solid  #17a3b8;
+  
+}
+.imagenArticulo{
+  background-color: #17a3b8;
+}
+.card-img-top{
+  height: 25vh;
+}
+.logo{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+}
+.logoFooter{
+  display: inline-block;
+}
+
+.vinculos{
+  display: inline-block;
+  margin-left: 50vw;
+}
+.vinculos a{
+  
+  color: #fff;
+  text-decoration: none;
+
+}
+@media (max-width:480px){
+  .logoFooter{
+    margin-left: 10vw;
+    margin-top: 2vw;
+  }
+  .vinculos{
+    display: block;
+    text-align: left;
+    margin-left: 28vw;
+  }
+  .fa-2x {
+    font-size: 1em;
+  }
+
+
 }
