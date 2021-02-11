@@ -58,7 +58,7 @@ svg{
   text-decoration: none;
 
 }
-@media (max-width:480px){
+@media (max-width:600px){
   .logoFooter{
     margin-left: 10vw;
     margin-top: 2vw;
@@ -71,6 +71,8 @@ svg{
   .fa-2x {
     font-size: 1em;
   }
-
+  .navegacion{
+    margin-left: 1vw !important;
+  }
 
 }
